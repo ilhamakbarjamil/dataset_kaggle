@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Baca file CSV
-file_path = 'D:\\KULIAH\\bagas_stastika\\archive\\Klasifikasi_Tingkat_Kemiskinan_di_Indonesia.csv'
+file_path = 'D:\\KULIAH\\archive\\Klasifikasi_Tingkat_Kemiskinan_di_Indonesia.csv'
 data = pd.read_csv(file_path, delimiter=';')
 
 # Ganti koma menjadi titik di seluruh data
